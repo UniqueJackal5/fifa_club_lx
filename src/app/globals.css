@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.topSection{
+  display: flex;
+  align-items: center;
+  background-color: #F5F5F5;
+}
+.logo{
+  height: 128px;
+  width: 128px;
+}
+
+.wlcm{
+  color: #0A133C;
+  margin: auto;
+}
+
+.marginMid{
+  text-align: center;
+}
+
+.orientFlex{
+  display: flex;
+  justify-content: space-evenly;
+}
