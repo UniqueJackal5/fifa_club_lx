@@ -1,5 +1,4 @@
-import styles from "./page.module.css";
-import logo from './lx_fifa_club.png';
+
 import Image from 'next/image';
 import "./globals.css";
 
