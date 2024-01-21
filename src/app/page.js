@@ -36,6 +36,7 @@ export default function Home() {
               <li>Milan Subedi</li>
               <li>Tikaram Limbu</li>
               <li>Bibisan Khatri</li>
+              <li>Aman Panta</li>
             </ol>
           </div>
           <div>
