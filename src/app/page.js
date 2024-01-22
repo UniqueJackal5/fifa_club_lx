@@ -1,29 +1,32 @@
 
 import Image from 'next/image';
 import "./globals.css";
+import "./bootstrap.js";
+import Header from './header';
 
 export default function Home() {
   return (
     <div className="body">
-      <div className="topSection">
+      {/* <div className="topSection">
         <div>
-        <Image
-      src="/lx_fifa_club.png"
-      width={128}
-      height={128}
-      alt="Picture of the author"
-    />
+          <Image
+            src="/lx_fifa_club.png"
+            width={128}
+            height={128}
+            alt="Picture of the author"
+          />
         </div>
         <div className="wlcm">
           <h1 className="">Welcome to the <span>LAXMIMARGA FIFA CLUB</span></h1>
         </div>
 
-      </div>
+      </div> */}
+      <Header/>
       <div>
         <h2 className="marginMid">Laxmimarga FIFA CLUB</h2>
         <div className="orientFlex">
           <div>
-          <h4 className="marginMid">Members</h4>
+            <h4 className="marginMid">Members</h4>
             <ol>
               <li>Santosh Adhikari</li>
               <li>Ajaya Shrestha</li>
@@ -41,7 +44,7 @@ export default function Home() {
             </ol>
           </div>
           <div>
-          <h4 className="marginMid">Management</h4>
+            <h4 className="marginMid">Management</h4>
             <ol>
               <li>Manager/Head(CEO)</li>
               <li>Accountant(CFO)</li>
@@ -54,10 +57,10 @@ export default function Home() {
               <li>Live Creation/Video Creation</li>
             </ol>
           </div>
-          
+
         </div>
         <div>
-        <h4 className="marginMid">Our Sponsors</h4>
+          <h4 className="marginMid">Our Sponsors</h4>
         </div>
         <div>
           <div className="orientFlex">
