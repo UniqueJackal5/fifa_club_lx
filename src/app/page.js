@@ -23,7 +23,7 @@ export default function Home() {
       </div> */}
       <Header/>
       <div>
-        <h2 className="marginMid">Laxmimarga FIFA CLUB</h2>
+        {/* <h2 className="marginMid">Laxmimarga FIFA CLUB</h2> */}
         <div className="orientFlex">
           <div>
             <h4 className="marginMid">Members</h4>

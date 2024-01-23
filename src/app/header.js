@@ -16,7 +16,7 @@ export default function Header() {
                         />
                     </div>
                     <div className='col-8 mt-1 '>
-                        <h2 className=''>The Laxmimarga FIFA CLUB</h2>
+                        <h2 className='headText'>The Laxmimarga FIFA CLUB</h2>
                     </div>
                 </div>
                 {/* <div className="row">
