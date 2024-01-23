@@ -30,3 +30,8 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+.headhead{
+  height: 80px;
+  background-color: #0A133C;
+}
