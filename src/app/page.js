@@ -3,6 +3,7 @@ import Image from 'next/image';
 import "./globals.css";
 import "./bootstrap.js";
 import Header from './header';
+import Body from './body.js';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
 
       </div> */}
       <Header/>
+      <Body/>
       <div>
         {/* <h2 className="marginMid">Laxmimarga FIFA CLUB</h2> */}
         <div className="orientFlex">
